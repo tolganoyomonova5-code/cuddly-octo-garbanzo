@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cuddly Octo Garbanzo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="logo" href="#top"><span id="logoIcon">🐙</span><span id="logoName"></span></a>
+  <div class="links">
+    <a class="hide-s" href="#features">Imkoniyatlar</a>
+    <a class="hide-s" href="#install">O’rnatish</a>
+    <a class="hide-s" href="#faq">FAQ</a>
+    <a id="ghLink" href="#" target="_blank" rel="noopener">GitHub</a>
+    <button class="icon-btn" id="themeBtn" aria-label="Mavzuni almashtirish">🌓</button>
+  </div>
+</nav></div></header>
+
+<main id="top">
+<div class="wrap hero">
+  <span class="pill" id="badge"></span>
+  <h1 id="title"></h1>
+  <p class="lead" id="tagline"></p>
+  <div class="cta">
+    <a class="btn primary" id="ctaMain" href="#install">Boshlash →</a>
+    <a class="btn" id="ctaGh" href="#" target="_blank" rel="noopener">⭐ GitHub’da ko‘rish</a>
+  </div>
+  <div class="code-wrap"><div class="code" id="cloneCmd"></div><button class="copy" data-copy="#cloneCmd">Nusxa</button></div>
+</div>
+
+<section id="stats"><div class="wrap"><div class="stats" id="statsBox"></div></div></section>
+
+<section id="features"><div class="wrap">
+  <h2 class="reveal">Imkoniyatlar</h2>
+  <p class="sub reveal">Loyiha nimalarga qodir.</p>
+  <div class="grid" id="featureGrid"></div>
+</div></section>
+
+<section id="install"><div class="wrap">
+  <h2 class="reveal">O’rnatish</h2>
+  <p class="sub reveal">O‘zingizga qulay usulni tanlang.</p>
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <div class="code-wrap" style="max-width:none;margin:0"><div class="code" id="tabCode"></div><button class="copy" data-copy="#tabCode">Nusxa</button></div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2 class="reveal">Ko‘p so‘raladigan savollar</h2>
+  <p class="sub reveal"></p>
+  <div id="faqBox"></div>
+</div></section>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
